@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gray;
+}
+
+nav {
+    margin-bottom: 50px;
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px 0;
+    margin-left: 25px;
+}
+
+nav ul li a {
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+    color: white
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h5 {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+footer {
+    background-color: white;
+}
+
+.productos {
+    display: inline-block;
+    padding-top: 50px;
+    width: 33%;
+}
+
+img.productos_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+footer {
+    height: 100px;
+}
+
+footer p {
+    display: inline;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+footer a {
+    float: right;
+}
+
+/* estilos para contact.html */
+label {
+    display: block;
+}
+
+input {
+    min-height: 2em;
+}
+
+button {
+    display: block;
+}
