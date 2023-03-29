@@ -9,9 +9,9 @@ body {
     background-color: gray;
 }
 
-nav {
+/* nav {
     margin-bottom: 50px;
-}
+} */
 
 nav li {
     display: inline-block;
@@ -23,6 +23,14 @@ nav ul li a {
     font-family: 'Roboto Mono', monospace;
     text-decoration: none;
     color: white
+}
+
+.navbar {
+background-color: black !important;
+}
+
+main {
+    height: calc(100vh - 100px);
 }
 
 h2 {
@@ -37,11 +45,23 @@ h5 {
 
 p {
     font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
 }
 
 footer {
-    background-color: white;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
 }
+footer a{
+    color: #0FF4C6
+    }
+    footer a:hover{
+        color: white
+    }
 
 .productos {
     display: inline-block;
@@ -56,17 +76,19 @@ img.productos_img {
     padding-bottom: 10px;
 }
 
-footer {
-    height: 100px;
-}
 
-footer p {
+/* footer p {
     display: inline;
     font-family: 'Ubuntu', sans-serif;
-}
+} */
 
-footer a {
+/* footer a {
     float: right;
+} */
+.redes {
+    color: #333;
+    font-size: 40px;
+    letter-spacing: 10px;
 }
 
 /* estilos para contact.html */
@@ -81,3 +103,5 @@ input {
 button {
     display: block;
 }
+
+/* estilos para products.html */
