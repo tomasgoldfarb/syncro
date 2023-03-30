@@ -117,7 +117,7 @@ button {
 /* estilos para index.html */
 .home {
     height: 400px;
-    background-image: url(../assets/img/fondo_index.jpg);
+    background-image: url(../img/fondo_index.jpg);
     background-size: cover;
     background-position: center;
 }
