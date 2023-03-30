@@ -26,7 +26,7 @@ nav ul li a {
 }
 
 .navbar {
-background-color: black !important;
+    background-color: black !important;
 }
 
 /* main {
@@ -36,6 +36,14 @@ background-color: black !important;
 h2 {
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
+}
+h3 {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    text-shadow: 0 0 5px black;
+    padding-top: 20px;
 }
 
 h5 {
@@ -56,12 +64,14 @@ footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px;
 }
-footer a{
+
+footer a {
     color: #0FF4C6
-    }
-    footer a:hover{
-        color: white
-    }
+}
+
+footer a:hover {
+    color: white
+}
 
 .productos {
     display: inline-block;
@@ -104,8 +114,22 @@ button {
     display: block;
 }
 
+/* estilos para index.html */
+.home {
+    height: 400px;
+    background-image: url(/assets/img/fondo_index.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
 /* estilos para products.html */
-.paleta{
+.paleta {
     border: #333 solid 1px;
     background-color: white;
+}
+
+.img-fluid:hover {
+    transition: all 0.9s;
+    filter: grayscale(100%)
 }
