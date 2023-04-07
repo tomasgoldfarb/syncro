@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: gray;
+    background-color: #253031;
 }
 
 /* nav {
@@ -34,8 +34,9 @@ nav ul li a {
 } */
 
 h2 {
-    text-align: center;
+    
     font-family: 'Ubuntu', sans-serif;
+    color: white;
 }
 h3 {
     color: white;
@@ -54,6 +55,7 @@ h5 {
 p {
     font-family: 'Ubuntu', sans-serif;
     margin: 0px;
+    color: white;
 }
 
 footer {
@@ -66,11 +68,11 @@ footer {
 }
 
 footer a {
-    color: #0FF4C6
+    color: white;
 }
 
 footer a:hover {
-    color: white
+    color: #0FF4C6;
 }
 
 .productos {
@@ -102,16 +104,64 @@ img.productos_img {
 }
 
 /* estilos para contact.html */
-label {
-    display: block;
+form {
+    display: flex;
+    flex-direction: column;
+    width: 60vh;
+    max-width: 500px;  
+    min-width: 300px;
+    margin: 0 auto;
+       margin-bottom: 50px;
+    }
+
+input{
+    min-height: 3em;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.5s, box-shadow 0.5s;
+}
+.formfield:hover{
+    background-color: #253031;
+   
+    box-shadow: 0 0 5px #0FF4C6;
+    color: white;
+
+}
+.formfield:focus{
+    background-color: #253031;
+    
+    box-shadow: 0 0 5px #0FF4C6;
+    color: white;
+
 }
 
-input {
-    min-height: 2em;
+textarea{
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 50px;
+    transition: background-color 0.5s, box-shadow 0.5s;
 }
 
-button {
-    display: block;
+button{
+    min-height: 3em;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14pt;
+    background-color: #0FF4C6;
+    transition: background-color 1s
+
+}
+button:hover{
+    background-color: white;
+}
+
+label{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14pt;
+        
 }
 
 /* estilos para index.html */
