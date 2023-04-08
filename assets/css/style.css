@@ -34,10 +34,11 @@ nav ul li a {
 } */
 
 h2 {
-    
+
     font-family: 'Ubuntu', sans-serif;
     color: white;
 }
+
 h3 {
     color: white;
     font-family: 'Ubuntu', sans-serif;
@@ -107,43 +108,43 @@ img.productos_img {
 form {
     display: flex;
     flex-direction: column;
-    width: 60vh;
-    max-width: 500px;  
-    min-width: 300px;
+    max-width: 500px;
     margin: 0 auto;
-       margin-bottom: 50px;
-    }
+    margin-bottom: 50px;
+}
 
-input{
+input {
     min-height: 3em;
     margin-bottom: 25px;
     border-radius: 5px;
     border: none;
     transition: background-color 0.5s, box-shadow 0.5s;
 }
-.formfield:hover{
-    background-color: #253031;
-   
-    box-shadow: 0 0 5px #0FF4C6;
-    color: white;
 
-}
-.formfield:focus{
+.formfield:hover {
     background-color: #253031;
-    
+
     box-shadow: 0 0 5px #0FF4C6;
     color: white;
 
 }
 
-textarea{
+.formfield:focus {
+    background-color: #253031;
+outline: 0 none;
+    box-shadow: 0 0 5px #0FF4C6;
+    color: white;
+
+}
+
+textarea {
     border-radius: 5px;
     border: none;
     margin-bottom: 50px;
     transition: background-color 0.5s, box-shadow 0.5s;
 }
 
-button{
+button {
     min-height: 3em;
     border-radius: 5px;
     border: none;
@@ -151,17 +152,17 @@ button{
     font-size: 14pt;
     background-color: #0FF4C6;
     transition: background-color 1s
-
 }
-button:hover{
+
+button:hover {
     background-color: white;
 }
 
-label{
+label {
     color: white;
     font-family: 'Ubuntu', sans-serif;
     font-size: 14pt;
-        
+
 }
 
 /* estilos para index.html */
