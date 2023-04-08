@@ -105,6 +105,24 @@ img.productos_img {
 }
 
 /* estilos para contact.html */
+#formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 600px;
+    padding: 20px;
+}
+
+#formbox {
+    width: 100%;
+    max-width: 400px;
+    padding: 30px 15px;
+    border-radius: 5px;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -131,7 +149,7 @@ input {
 
 .formfield:focus {
     background-color: #253031;
-outline: 0 none;
+    outline: 0 none;
     box-shadow: 0 0 5px #0FF4C6;
     color: white;
 
