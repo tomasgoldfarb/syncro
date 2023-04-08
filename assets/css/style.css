@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+.mb-2 {
+    margin-bottom: 0 !important;
+}
+
 body {
     background-color: #253031;
 }
@@ -23,10 +27,6 @@ nav ul li a {
     font-family: 'Roboto Mono', monospace;
     text-decoration: none;
     color: white
-}
-
-.navbar {
-    background-color: black !important;
 }
 
 /* main {
@@ -120,7 +120,7 @@ img.productos_img {
     width: 100%;
     max-width: 400px;
     padding: 30px 15px;
-    border-radius: 5px;
+
 }
 
 form {
@@ -141,7 +141,6 @@ input {
 
 .formfield:hover {
     background-color: #253031;
-
     box-shadow: 0 0 5px #0FF4C6;
     color: white;
 
@@ -149,10 +148,9 @@ input {
 
 .formfield:focus {
     background-color: #253031;
-    outline: 0 none;
+    /* outline: 0 none; */
     box-shadow: 0 0 5px #0FF4C6;
     color: white;
-
 }
 
 textarea {
@@ -172,7 +170,7 @@ button {
     transition: background-color 1s
 }
 
-button:hover {
+button[type="submit"]:hover {
     background-color: white;
 }
 
@@ -201,4 +199,10 @@ label {
 .img-fluid:hover {
     transition: all 0.9s;
     filter: grayscale(100%)
+}
+
+@media (hover: hover) {
+    .formfield:focus {
+            outline: 0 none;
+    }
 }
