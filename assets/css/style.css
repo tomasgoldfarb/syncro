@@ -1,208 +1,237 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Ubuntu:wght@300&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Ubuntu:wght@300&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-}
-
-.mb-2 {
-    margin-bottom: 0 !important;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: #253031;
+  background-color: #253031;
 }
 
-/* nav {
-    margin-bottom: 50px;
-} */
-
 nav li {
-    display: inline-block;
-    padding: 10px 0;
-    margin-left: 25px;
+  display: inline-block;
+  padding: 10px 0;
+  margin-left: 25px;
 }
 
 nav ul li a {
-    font-family: 'Roboto Mono', monospace;
-    text-decoration: none;
-    color: white
+  font-family: "Roboto Mono", monospace;
+  text-decoration: none;
+  color: white;
 }
 
-/* main {
-    height: calc(100vh - 100px);
-} */
+main {
+  height: calc(100vh - 183px);
+}
+
+h1 {
+  color: #0FF4C6;
+}
 
 h2 {
-
-    font-family: 'Ubuntu', sans-serif;
-    color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 900;
+  color: #FF123D;
 }
 
 h3 {
-    color: white;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 18px;
-    text-align: center;
-    text-shadow: 0 0 5px black;
-    padding-top: 20px;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  text-shadow: 0 0 5px black;
+  padding-top: 20px;
 }
 
 h5 {
-    text-align: center;
-    font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
 }
 
 p {
-    font-family: 'Ubuntu', sans-serif;
-    margin: 0px;
-    color: white;
+  font-family: "Ubuntu", sans-serif;
+  margin: 0px;
+  color: white;
 }
 
 footer {
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    font-size: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 10px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
 }
 
 footer a {
-    color: white;
+  color: white;
 }
 
 footer a:hover {
-    color: #0FF4C6;
+  color: #0FF4C6;
 }
 
 .productos {
-    display: inline-block;
-    padding-top: 50px;
-    width: 33%;
+  display: inline-block;
+  padding-top: 50px;
+  width: 33%;
 }
 
 img.productos_img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
 }
 
-
-/* footer p {
-    display: inline;
-    font-family: 'Ubuntu', sans-serif;
-} */
-
-/* footer a {
-    float: right;
-} */
 .redes {
-    color: #333;
-    font-size: 40px;
-    letter-spacing: 10px;
+  color: #333;
+  font-size: 40px;
+  letter-spacing: 10px;
 }
 
 /* estilos para contact.html */
 #formContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    width: 100%;
-    height: auto;
-    min-height: 600px;
-    padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 600px;
+  padding: 20px;
 }
 
 #formbox {
-    width: 100%;
-    max-width: 400px;
-    padding: 30px 15px;
-
+  width: 100%;
+  max-width: 400px;
+  padding: 30px 15px;
 }
 
 form {
-    display: flex;
-    flex-direction: column;
-    max-width: 500px;
-    margin: 0 auto;
-    margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 input {
-    min-height: 3em;
-    margin-bottom: 25px;
-    border-radius: 5px;
-    border: none;
-    transition: background-color 0.5s, box-shadow 0.5s;
+  min-height: 3em;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.5s, box-shadow 0.5s;
 }
 
 .formfield:hover {
-    background-color: #253031;
-    box-shadow: 0 0 5px #0FF4C6;
-    color: white;
-
+  background-color: #253031;
+  box-shadow: 0 0 5px #0FF4C6;
+  color: white;
 }
 
 .formfield:focus {
-    background-color: #253031;
-    /* outline: 0 none; */
-    box-shadow: 0 0 5px #0FF4C6;
-    color: white;
+  background-color: #253031;
+  /* outline: 0 none; */
+  box-shadow: 0 0 5px #0FF4C6;
+  color: white;
 }
 
 textarea {
-    border-radius: 5px;
-    border: none;
-    margin-bottom: 50px;
-    transition: background-color 0.5s, box-shadow 0.5s;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 50px;
+  transition: background-color 0.5s, box-shadow 0.5s;
 }
 
 button {
-    min-height: 3em;
-    border-radius: 5px;
-    border: none;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 14pt;
-    background-color: #0FF4C6;
-    transition: background-color 1s
+  min-height: 3em;
+  border-radius: 5px;
+  border: none;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14pt;
+  background-color: #0FF4C6;
+  transition: background-color 1s;
 }
 
-button[type="submit"]:hover {
-    background-color: white;
+button[type=submit]:hover {
+  background-color: white;
 }
 
 label {
-    color: white;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 14pt;
-
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14pt;
 }
 
 /* estilos para index.html */
-.home {
-    height: 400px;
-    background-image: url(../img/fondo_index.jpg);
-    background-size: cover;
-    background-position: center;
+#main_index {
+  background-image: url(../img/fondo_index.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
+aside {
+  border: 5px dashed #FF123D;
+  margin: 10px;
+  padding: 20px;
+}
+aside p {
+  font-weight: 900;
+}
+aside a {
+  color: black;
+  text-decoration: none;
+  background-color: #0FF4C6;
+  padding: 5px 20px;
+}
+aside a:hover {
+  background-color: white;
+}
+
+.frase_index {
+  width: 350px;
+  height: 500px;
+  padding-left: 50px;
+  display: flex;
+  align-items: center;
+}
 
 /* estilos para products.html */
 .paleta {
-    border: #333 solid 1px;
-    background-color: white;
+  border: #333 solid 1px;
+  background-color: white;
 }
 
 .img-fluid:hover {
-    transition: all 0.9s;
-    filter: grayscale(100%)
+  transition: all 0.9s;
+  filter: grayscale(100%);
+}
+
+/* estilos para about.html */
+#main_about {
+  background-image: url(../img/fondo_about.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#main_about h2 {
+  display: block;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+#main_about p {
+  display: block;
+  width: 50%;
+  align-self: center;
+  padding: 0 80px;
+  font-weight: 900;
 }
 
 @media (hover: hover) {
-    .formfield:focus {
-            outline: 0 none;
-    }
-}
+  .formfield:focus {
+    outline: 0 none;
+  }
+}/*# sourceMappingURL=style.css.map */
