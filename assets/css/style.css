@@ -6,6 +6,7 @@
 
 body {
   background-color: #253031;
+  height: 100%;
 }
 
 nav li {
@@ -18,10 +19,6 @@ nav ul li a {
   font-family: "Roboto Mono", monospace;
   text-decoration: none;
   color: white;
-}
-
-main {
-  height: calc(100vh - 183px);
 }
 
 h1 {
@@ -216,6 +213,7 @@ aside a:hover {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  height: calc(100vh - 183px);
 }
 #main_about h2 {
   display: block;
