@@ -162,27 +162,27 @@ label {
 }
 
 /* estilos para index.html */
-#main_index {
+.main_index {
   background-image: url(../img/fondo_index.jpg);
   background-size: cover;
   background-position: center;
 }
 
-aside {
+.aside_index {
   border: 5px dashed #FF123D;
   margin: 10px;
   padding: 20px;
 }
-aside p {
+.aside_index p {
   font-weight: 900;
 }
-aside a {
+.aside_index a {
   color: black;
   text-decoration: none;
   background-color: #0FF4C6;
   padding: 5px 20px;
 }
-aside a:hover {
+.aside_index a:hover {
   background-color: white;
 }
 
