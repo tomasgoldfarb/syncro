@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Ubuntu:wght@300&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -45,6 +46,7 @@ h3 {
 h5 {
   text-align: center;
   font-family: "Ubuntu", sans-serif;
+  color: white;
 }
 
 p {
@@ -61,9 +63,11 @@ footer {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 10px;
 }
+
 footer a {
   color: white;
 }
+
 footer a:hover {
   color: #0FF4C6;
 }
@@ -93,9 +97,7 @@ img.productos_img {
   justify-content: center;
   align-items: center;
   position: relative;
-  width: 100%;
   height: auto;
-  min-height: 600px;
   padding: 20px;
 }
 
@@ -165,6 +167,7 @@ label {
     outline: 0 none;
   }
 }
+
 /* estilos para index.html */
 .main_index {
   background-image: url(../img/fondo_index.jpg);
@@ -177,15 +180,18 @@ label {
   margin: 10px;
   padding: 20px;
 }
+
 .aside_index p {
   font-weight: 900;
 }
+
 .aside_index a {
   color: black;
   text-decoration: none;
   background-color: #0FF4C6;
   padding: 5px 20px;
 }
+
 .aside_index a:hover {
   background-color: white;
 }
@@ -200,8 +206,8 @@ label {
 
 /* estilos para products.html */
 .paleta {
-  border: #333 solid 1px;
-  background-color: white;
+  border: black solid 1px;
+  background-color: #313035;
 }
 
 .img-fluid:hover {
@@ -219,6 +225,7 @@ label {
   flex-wrap: wrap;
   height: calc(100vh - 183px);
 }
+
 .main_about .frase_about {
   align-self: center;
   padding: 0 80px;
@@ -230,10 +237,22 @@ label {
     padding-left: 50px;
     padding-top: 50px;
   }
+
   .frase_about {
     width: 50%;
     align-self: center;
     padding: 0 80px;
     font-weight: 900;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/* estilos para shop.html */
+.texto_shop {
+  padding-top: 20px;
+}
+
+iframe {
+  padding: 20px 0;
+}
+
+/*# sourceMappingURL=style.css.map */
