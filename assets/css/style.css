@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #253031;
+  background-color: #101111;
   height: 100%;
 }
 
@@ -29,6 +29,8 @@ h2 {
   font-family: "Ubuntu", sans-serif;
   font-weight: 900;
   color: #FF123D;
+  padding-left: 20px;
+  padding-top: 20px;
 }
 
 h3 {
@@ -59,11 +61,9 @@ footer {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 10px;
 }
-
 footer a {
   color: white;
 }
-
 footer a:hover {
   color: #0FF4C6;
 }
@@ -88,7 +88,7 @@ img.productos_img {
 }
 
 /* estilos para contact.html */
-#formContainer {
+.form_contact {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -110,7 +110,6 @@ form {
   flex-direction: column;
   max-width: 500px;
   margin: 0 auto;
-  margin-bottom: 50px;
 }
 
 input {
@@ -122,13 +121,13 @@ input {
 }
 
 .formfield:hover {
-  background-color: #253031;
+  background-color: #101111;
   box-shadow: 0 0 5px #0FF4C6;
   color: white;
 }
 
 .formfield:focus {
-  background-color: #253031;
+  background-color: #101111;
   /* outline: 0 none; */
   box-shadow: 0 0 5px #0FF4C6;
   color: white;
@@ -161,6 +160,11 @@ label {
   font-size: 14pt;
 }
 
+@media (hover: hover) {
+  .formfield:focus {
+    outline: 0 none;
+  }
+}
 /* estilos para index.html */
 .main_index {
   background-image: url(../img/fondo_index.jpg);
@@ -206,7 +210,7 @@ label {
 }
 
 /* estilos para about.html */
-#main_about {
+.main_about {
   background-image: url(../img/fondo_about.jpg);
   background-size: cover;
   background-position: center;
@@ -215,21 +219,21 @@ label {
   flex-wrap: wrap;
   height: calc(100vh - 183px);
 }
-#main_about h2 {
-  display: block;
-  padding-left: 50px;
-  padding-top: 50px;
-}
-#main_about p {
-  display: block;
-  width: 50%;
+.main_about .frase_about {
   align-self: center;
   padding: 0 80px;
   font-weight: 900;
 }
 
-@media (hover: hover) {
-  .formfield:focus {
-    outline: 0 none;
+@media (min-width: 575.98px) {
+  .main_about h2 {
+    padding-left: 50px;
+    padding-top: 50px;
+  }
+  .frase_about {
+    width: 50%;
+    align-self: center;
+    padding: 0 80px;
+    font-weight: 900;
   }
 }/*# sourceMappingURL=style.css.map */
