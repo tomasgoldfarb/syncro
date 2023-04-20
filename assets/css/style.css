@@ -247,7 +247,18 @@ label {
 }
 
 /* estilos para shop.html */
+.main_shop {
+  background-image: url(../img/fondo_shop.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: calc(100vh - 183px);
+}
+
 .texto_shop {
+  align-self: center;
   padding-top: 20px;
 }
 
