@@ -21,6 +21,10 @@ nav ul li a {
   color: white;
 }
 
+main {
+  min-height: calc(100vh - 167px);
+}
+
 h1 {
   font-family: "Rubik", sans-serif;
   font-size: 40px;
@@ -56,6 +60,14 @@ p {
   font-family: "Ubuntu", sans-serif;
   margin: 0px;
   color: white;
+}
+p a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: white;
+}
+p a:hover {
+  color: #0FF4C6;
 }
 
 footer {
@@ -105,7 +117,7 @@ img.productos_img {
 #formbox {
   width: 100%;
   max-width: 400px;
-  padding: 30px 15px;
+  padding: 20px 15px;
 }
 
 form {
@@ -116,8 +128,8 @@ form {
 }
 
 input {
-  min-height: 3em;
-  margin-bottom: 25px;
+  min-height: 2.5em;
+  margin-bottom: 20px;
   border-radius: 5px;
   border: none;
   transition: background-color 0.5s, box-shadow 0.5s;
@@ -138,12 +150,12 @@ input {
 textarea {
   border-radius: 5px;
   border: none;
-  margin-bottom: 50px;
+  margin-bottom: 35px;
   transition: background-color 0.5s, box-shadow 0.5s;
 }
 
 button {
-  min-height: 3em;
+  min-height: 2.5em;
   border-radius: 5px;
   border: none;
   font-family: "Ubuntu", sans-serif;
@@ -160,6 +172,11 @@ label {
   color: white;
   font-family: "Ubuntu", sans-serif;
   font-size: 14pt;
+}
+
+#contact_text {
+  padding-left: 25px;
+  padding-top: 15px;
 }
 
 @media (hover: hover) {
@@ -219,7 +236,6 @@ label {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  height: calc(100vh - 183px);
 }
 .main_about .frase_about {
   align-self: center;
@@ -247,7 +263,6 @@ label {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  height: calc(100vh - 183px);
 }
 
 .texto_shop {
@@ -257,4 +272,10 @@ label {
 
 iframe {
   padding: 20px 0;
+}
+
+@media (min-width: 992px) {
+  main {
+    min-height: calc(100vh - 177px);
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -31,9 +31,9 @@ nav ul li a {
     color: white
 }
 
-// main {
-//     height: calc(100vh - 183px);
-// }
+main {
+    min-height: calc(100vh - 167px);
+}
 
 h1 {
     font-family: $font1;
@@ -71,6 +71,16 @@ p {
     font-family: $font2;
     margin: 0px;
     color: white;
+
+    a {
+        text-decoration: none;
+        font-weight: bolder;
+        color: $color2;
+    }
+
+    a:hover {
+        color: $color4
+    }
 }
 
 footer {
@@ -110,9 +120,9 @@ img.productos_img {
 }
 
 /* estilos para contact.html */
-// .main_contact{
-//  height: calc(100vh - 183px);
-// }
+//.main_contact{
+// min-height: calc(100vh - 183px);
+//}
 .form_contact {
     display: flex;
     justify-content: center;
@@ -127,7 +137,7 @@ img.productos_img {
 #formbox {
     width: 100%;
     max-width: 400px;
-    padding: 30px 15px;
+    padding: 20px 15px;
 }
 
 form {
@@ -138,8 +148,8 @@ form {
 }
 
 input {
-    min-height: 3em;
-    margin-bottom: 25px;
+    min-height: 2.5em;
+    margin-bottom: 20px;
     border-radius: 5px;
     border: none;
     transition: background-color 0.5s, box-shadow 0.5s;
@@ -160,12 +170,12 @@ input {
 textarea {
     border-radius: 5px;
     border: none;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
     transition: background-color 0.5s, box-shadow 0.5s;
 }
 
 button {
-    min-height: 3em;
+    min-height: 2.5em;
     border-radius: 5px;
     border: none;
     font-family: $font2;
@@ -184,6 +194,11 @@ label {
     font-size: 14pt;
 }
 
+#contact_text {
+    padding-left: 25px;
+    padding-top: 15px;
+}
+
 @media (hover: hover) {
     .formfield:focus {
         outline: 0 none;
@@ -195,6 +210,7 @@ label {
     background-image: url(../img/fondo_index.jpg);
     background-size: cover;
     background-position: center;
+    // min-height: calc(100vh - 177px);
 }
 
 .aside_index {
@@ -245,7 +261,7 @@ label {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    height: calc(100vh - 183px);
+    // height: calc(100vh - 177px);
 
     .frase_about {
         align-self: center;
@@ -278,7 +294,7 @@ label {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    height: calc(100vh - 183px);
+    // min-height: calc(100vh - 177px);
 }
 
 .texto_shop {
@@ -288,4 +304,10 @@ label {
 
 iframe {
     padding: 20px 0;
+}
+
+@media (min-width: 992px) {
+    main {
+        min-height: calc(100vh - 177px);
+    }
 }
