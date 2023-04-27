@@ -120,9 +120,7 @@ img.productos_img {
 }
 
 /* estilos para contact.html */
-//.main_contact{
-// min-height: calc(100vh - 183px);
-//}
+
 .form_contact {
     display: flex;
     justify-content: center;
@@ -180,6 +178,7 @@ button {
     border: none;
     font-family: $font2;
     font-size: 14pt;
+    color: $color1;
     background-color: #0FF4C6;
     transition: background-color 1s
 }
@@ -210,7 +209,6 @@ label {
     background-image: url(../img/fondo_index.jpg);
     background-size: cover;
     background-position: center;
-    // min-height: calc(100vh - 177px);
 }
 
 .aside_index {
@@ -243,6 +241,7 @@ label {
 }
 
 /* estilos para products.html */
+
 .paleta {
     border: $color1 solid 1px;
     background-color: #313035;
@@ -254,6 +253,7 @@ label {
 }
 
 /* estilos para about.html */
+
 .main_about {
     background-image: url(../img/fondo_about.jpg);
     background-size: cover;
@@ -261,7 +261,6 @@ label {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    // height: calc(100vh - 177px);
 
     .frase_about {
         align-self: center;
@@ -287,6 +286,7 @@ label {
 }
 
 /* estilos para shop.html */
+
 .main_shop {
     background-image: url(../img/fondo_shop.jpg);
     background-size: cover;
@@ -294,7 +294,6 @@ label {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    // min-height: calc(100vh - 177px);
 }
 
 .texto_shop {
